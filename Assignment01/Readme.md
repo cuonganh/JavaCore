@@ -35,11 +35,11 @@ HelloWorld.java
 
 - Tiến hành compiler chương trình tại đường dẫn thư mục chứa file chứa HelloWorld.java.
 
-javac HelloWorld.java
+	javac HelloWorld.java
 
 - Tiến hành chạy chương trình tại đường dẫn thư mục chứa file chứa HelloWorld.java và HelloWorld.class (mới compiler xong).
 
-java HelloWorld
+	java HelloWorld
 
 - Chương trình đã chạy với kết quả hiển thị trên màn hình console:
 
@@ -175,9 +175,14 @@ Class Student.java
 	Hello! I'm a Kangaroo, and I like to bounce around a lot.
 	Hello! I'm an Emu. Do you like big birds like me?
 
-- Tính kế thừa (Inheritance) 
+- Tính kế thừa (Inheritance):
+	+ Các đối tượng Koala, Kangaroo, Emu được kế thừa phương thức talk() từ class Animal mà không cần cài đặt.
+	+ Các đối tượng đều tự động được sử dụng phương thức talk() để in ra "Hello!".
+	+ Nếu ở các class kế thừa không cài đặt lại, thì phương thức ở class "cha" sẽ được sử dụng.
 
-
-
-- Tính đa hình (Polymorphisme)
-
+- Tính đa hình (Polymorphisme):
+	+ Các đối tượng Koala, Kangaroo, Emu cùng sử dụng phương thức thoughts() nhưng được cài đặt lại với nội dung khác.
+	+ Animal: thoughts() => I don't know what I want to eat.
+	+ Koala: thoughts() => I am a Koala, and I am very sleepy.  Zzzzz...
+	+ Kangaroo: thoughts() => I'm a Kangaroo, and I like to bounce around a lot.
+	+ Emu: thoughts() => I'm an Emu. Do you like big birds like me?
