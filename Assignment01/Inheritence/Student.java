@@ -16,17 +16,29 @@ public class Student extends Person{
 
     }
 
-    public String enrolInSubject(){
+    //Getter
+	    public String getStudentNumber(){
+		return this.studentNumber;
+	    }
+	    public String getCourse(){
+		return this.course;
+	    }
+	    public String getEnrolledSubjects(){
+		return this.enrolledSubjects;
+	    }
+	
+	    //Method
+	    public String enrolInSubject(){
 
-        return this.enrolledSubjects;
+		return this.enrolledSubjects;
 
-    }
+	    }
 
-    public String withdrawFromSubject(){
+	    public String withdrawFromSubject(){
 
-        return this.enrolledSubjects;
+		return this.enrolledSubjects;
 
-    }
+	    }
 
 
 }
