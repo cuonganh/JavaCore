@@ -37,6 +37,7 @@ public class Person {
         return dateOfBirth;
     }
 
+    /*
     //Setter
     public void setName(String name) {
         this.name = name;
@@ -49,6 +50,7 @@ public class Person {
     public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
+    */
 
     //Method of Person class
     public void setDateOfBirth(Date dateOfBirth) {
