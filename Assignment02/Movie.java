@@ -30,6 +30,8 @@ public class Movie {
 
     public static void MovieCheker() {
 
+        System.out.println("\n========== Movie checker ==========");
+
         Scanner keyScanner = new Scanner(System.in);
         System.out.println("\nInput the number of the people: ");
         int numPeople = keyScanner.nextInt();
