@@ -17,3 +17,10 @@ Bài 4:
 - Chương trình đưa ra kết luận đó có thể là số đo 3 cạnh của 1 tam giác không.
 - Kết thúc mỗi lần đưa ra kết quả thì người dùng luôn được lựa chọn có muốn tiếp tục nhập 3 số đo khác không.
 (Gợi ý: Số đo 3 cạnh tam giác thì tổng 2 cạnh bất kỳluôn lớn hơn cạnh còn lại)
+
+### How to run this project
+- install: jdk, jre (khuyến khích jdk 8 trở lên) 
+- git clon https://github.com/cuonganh/JavaCore/tree/main/Assignment02 
+- if you want run a function in an IDE, you should disable other function
+- javac Main.java
+- java Main
